@@ -1,12 +1,190 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\dto\\addbookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\dto\\addbookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\domain\\authors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\domain\\authors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\domain\\publishers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\domain\\publishers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\domain\\book_author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\domain\\book_author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "addBookRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\addBookRequestDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\addBookRequestDTO.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\addBookRequestDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\addBookRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:35:03.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\BookDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\BookDTO.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\BookDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\BookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:28:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowHYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:22:32.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:06:33.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-16T07:07:49.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:00:03.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Authors.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Authors.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Authors.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Authors.cs",
+              "RelativeToolTip": "Models\\Domain\\Authors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T06:56:29.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Book.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Book.cs",
+              "RelativeToolTip": "Models\\Domain\\Book.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T06:52:49.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Publishers.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Publishers.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Publishers.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Publishers.cs",
+              "RelativeToolTip": "Models\\Domain\\Publishers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T06:54:34.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book_Author.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Book_Author.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Book_Author.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\Domain\\Book_Author.cs",
+              "RelativeToolTip": "Models\\Domain\\Book_Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T06:58:15.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
