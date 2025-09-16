@@ -1,0 +1,6 @@
+@BaithuchanhWeb2_HostAddress = http://localhost:5263
+
+GET {{BaithuchanhWeb2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
