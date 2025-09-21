@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\repositories\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:repositories\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\repositories\\sqlpublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:repositories\\sqlpublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\dto\\publisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\dto\\publisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PublisherDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\PublisherDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\PublisherDTO.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\PublisherDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\PublisherDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:23:07.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPublisherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\IPublisherRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPublisherRepository.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\IPublisherRepository.cs",
+              "RelativeToolTip": "Repositories\\IPublisherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:18:19.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLPublisherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\SQLPublisherRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SQLPublisherRepository.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\SQLPublisherRepository.cs",
+              "RelativeToolTip": "Repositories\\SQLPublisherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:18:46.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PublishersController.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\PublishersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PublishersController.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\PublishersController.cs",
+              "RelativeToolTip": "Controllers\\PublishersController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:18:01.885Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,48 +92,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T08:50:57.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T08:50:06.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SQLBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\SQLBookRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\SQLBookRepository.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\SQLBookRepository.cs",
-              "RelativeToolTip": "Repositories\\SQLBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T08:49:10.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\IBookRepository.cs",
-              "RelativeToolTip": "Repositories\\IBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T08:48:48.67Z",
+              "WhenOpened": "2025-09-21T09:06:40.03Z",
               "EditorCaption": ""
             }
           ]

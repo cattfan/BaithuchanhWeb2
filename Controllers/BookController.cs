@@ -51,5 +51,4 @@ namespace BaithuchanhWeb2.Controllers
             return Ok(deleteBook);
         }
     }
-
 }
