@@ -11,5 +11,4 @@ namespace BaithuchanhWeb2.Repositories
         AddBookRequestDTO? UpdateBookById(int id, AddBookRequestDTO bookDTO);
         Book? DeleteBookById(int id);
     }
-
 }

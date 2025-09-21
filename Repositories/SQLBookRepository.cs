@@ -123,5 +123,4 @@ namespace BaithuchanhWeb2.Repositories
             return bookDomain;
         }
     }
-
 }
