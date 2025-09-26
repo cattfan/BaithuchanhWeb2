@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\customactionfilter\\customactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\customactionfilter\\customactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:06:05.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomActionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\CustomActionFilter\\CustomActionFilter.cs",
+              "RelativeDocumentMoniker": "Models\\CustomActionFilter\\CustomActionFilter.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\CustomActionFilter\\CustomActionFilter.cs",
+              "RelativeToolTip": "Models\\CustomActionFilter\\CustomActionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:03:00.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
