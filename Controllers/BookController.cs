@@ -11,6 +11,7 @@ namespace BaithuchanhWeb2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class BooksController : ControllerBase
     {
         private readonly AppDbContext _dbContext;
@@ -21,6 +22,7 @@ namespace BaithuchanhWeb2.Controllers
             _bookRepository = bookRepository;
         }
         [HttpGet("get-all-books")]
+        [Authorize(Roles = "Read")]
         public IActionResult GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery, [FromQuery] string? sortBy, [FromQuery] bool isAscending,[FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 100)
         {
             // su dung reposity pattern
@@ -32,12 +34,14 @@ namespace BaithuchanhWeb2.Controllers
 
         [HttpGet]
         [Route("get-book-by-id/{id}")]
+        [Authorize(Roles = "Read")]
         public IActionResult GetBookById([FromRoute] int id)
         {
             var bookWithIdDTO = _bookRepository.GetBookById(id);
             return Ok(bookWithIdDTO);
         }
         [HttpPost("add-book")]
+        [Authorize(Roles ="Read,Write")]
         [ValidateModel]
         //[Authorize(Roles = "Write")]
         public IActionResult AddBook([FromBody] AddBookRequestDTO addBookRequestDTO)
@@ -50,12 +54,14 @@ namespace BaithuchanhWeb2.Controllers
             return BadRequest(ModelState);
         }
         [HttpPut("update-book-by-id/{id}")]
+        [Authorize(Roles = "Read,Write")]
         public IActionResult UpdateBookById(int id, [FromBody] AddBookRequestDTO bookDTO)
         {
             var updateBook = _bookRepository.UpdateBookById(id, bookDTO);
             return Ok(updateBook);
         }
         [HttpDelete("delete-book-by-id/{id}")]
+        [Authorize(Roles = "Read,Write")]
         public IActionResult DeleteBookById(int id)
         {
             var deleteBook = _bookRepository.DeleteBookById(id);
