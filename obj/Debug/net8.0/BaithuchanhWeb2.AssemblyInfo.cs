@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaithuchanhWeb2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdc70263a0fb04701a44077b72a46f2e7ffdd193")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc7929d4ed3320d3c05c576a1ae888dd3fbb9ce6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaithuchanhWeb2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaithuchanhWeb2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
