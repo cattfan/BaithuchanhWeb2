@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SQLBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\SQLBookRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\SQLBookRepository.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\SQLBookRepository.cs",
-              "RelativeToolTip": "Repositories\\SQLBookRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAADwvzYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:23:53.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\IBookRepository.cs",
-              "RelativeToolTip": "Repositories\\IBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:23:04.649Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAACcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs*",
+              "RelativeToolTip": "Controllers\\BookController.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwC0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:06:05.225Z",
+              "WhenOpened": "2025-09-30T02:06:11.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T01:47:04.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvzQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T01:43:08.151Z",
               "EditorCaption": ""
             }
           ]

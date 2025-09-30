@@ -2,12 +2,14 @@
 using BaithuchanhWeb2.Models.Domain;
 using BaithuchanhWeb2.Models.DTO;
 using BaithuchanhWeb2.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BaithuchanhWeb2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class AuthorsController : ControllerBase
     {
         private readonly AppDbContext _dbContext;
