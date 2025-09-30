@@ -1,0 +1,10 @@
+2025-09-30 10:13:29.164 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/api/Authors/get-all-author - null null
+2025-09-30 10:13:29.250 +07:00 [INF] Executing endpoint 'BaithuchanhWeb2.Controllers.AuthorsController.GetAllAuthor (BaithuchanhWeb2)'
+2025-09-30 10:13:29.265 +07:00 [INF] Route matched with {action = "GetAllAuthor", controller = "Authors"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAuthor() on controller BaithuchanhWeb2.Controllers.AuthorsController (BaithuchanhWeb2).
+2025-09-30 10:13:30.497 +07:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FullName]
+FROM [Authors] AS [a]
+2025-09-30 10:13:30.559 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BaithuchanhWeb2.Models.DTO.AuthorDTO, BaithuchanhWeb2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-30 10:13:30.578 +07:00 [INF] Executed action BaithuchanhWeb2.Controllers.AuthorsController.GetAllAuthor (BaithuchanhWeb2) in 1306.831ms
+2025-09-30 10:13:30.580 +07:00 [INF] Executed endpoint 'BaithuchanhWeb2.Controllers.AuthorsController.GetAllAuthor (BaithuchanhWeb2)'
+2025-09-30 10:13:30.588 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/api/Authors/get-all-author - 200 null application/json; charset=utf-8 1424.2207ms
