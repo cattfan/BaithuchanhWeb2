@@ -1,0 +1,40 @@
+2025-10-06 08:29:31.618 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-06 08:29:31.665 +07:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-06 08:29:31.666 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-06 08:29:31.667 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-06 08:29:31.679 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-10-06 08:29:31.686 +07:00 [INF] Applying migration '20251006012808_Addimage'.
+2025-10-06 08:29:31.728 +07:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Images] (
+    [Id] int NOT NULL IDENTITY,
+    [FileName] nvarchar(max) NOT NULL,
+    [FileDescription] nvarchar(max) NULL,
+    [FileExtension] nvarchar(max) NOT NULL,
+    [FileSizeInBytes] bigint NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Images] PRIMARY KEY ([Id])
+);
+2025-10-06 08:29:31.729 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251006012808_Addimage', N'8.0.20');
+2025-10-06 08:29:40.828 +07:00 [INF] User profile is available. Using 'C:\Users\CATTFAN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-06 08:29:41.006 +07:00 [INF] Now listening on: https://localhost:7249
+2025-10-06 08:29:41.007 +07:00 [INF] Now listening on: http://localhost:5263
+2025-10-06 08:29:41.043 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 08:29:41.044 +07:00 [INF] Hosting environment: Development
+2025-10-06 08:29:41.045 +07:00 [INF] Content root path: C:\Users\CATTFAN\Desktop\BaithuchanhWeb2
+2025-10-06 08:29:41.523 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/index.html - null null
+2025-10-06 08:29:41.647 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/index.html - 200 null text/html;charset=utf-8 126.1942ms
+2025-10-06 08:29:41.659 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 08:29:41.665 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 6.0427ms
+2025-10-06 08:29:42.502 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/_vs/browserLink - null null
+2025-10-06 08:29:42.528 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.4824ms
+2025-10-06 08:29:42.736 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - null null
+2025-10-06 08:29:42.749 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.8515ms

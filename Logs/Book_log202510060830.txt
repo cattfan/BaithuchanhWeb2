@@ -1,0 +1,34 @@
+2025-10-06 08:30:16.661 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7249/api/Images/Upload - multipart/form-data; boundary=----WebKitFormBoundarykIvvC9JcWjKkMJAM 37642
+2025-10-06 08:30:16.713 +07:00 [INF] Executing endpoint 'BaithuchanhWeb2.Controllers.ImagesController.Upload (BaithuchanhWeb2)'
+2025-10-06 08:30:16.725 +07:00 [INF] Route matched with {action = "Upload", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload(BaithuchanhWeb2.Models.DTO.ImageUploadRequestDTO) on controller BaithuchanhWeb2.Controllers.ImagesController (BaithuchanhWeb2).
+2025-10-06 08:30:17.459 +07:00 [INF] Executed DbCommand (26ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-10-06 08:30:17.482 +07:00 [INF] Executing OkObjectResult, writing value of type 'BaithuchanhWeb2.Models.Image'.
+2025-10-06 08:30:17.497 +07:00 [INF] Executed action BaithuchanhWeb2.Controllers.ImagesController.Upload (BaithuchanhWeb2) in 765.1843ms
+2025-10-06 08:30:17.498 +07:00 [INF] Executed endpoint 'BaithuchanhWeb2.Controllers.ImagesController.Upload (BaithuchanhWeb2)'
+2025-10-06 08:30:17.503 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7249/api/Images/Upload - 200 null application/json; charset=utf-8 841.7955ms
+2025-10-06 08:30:29.740 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/api/Images - null null
+2025-10-06 08:30:29.745 +07:00 [INF] Executing endpoint 'BaithuchanhWeb2.Controllers.ImagesController.GetAllInfoImages (BaithuchanhWeb2)'
+2025-10-06 08:30:29.749 +07:00 [INF] Route matched with {action = "GetAllInfoImages", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllInfoImages() on controller BaithuchanhWeb2.Controllers.ImagesController (BaithuchanhWeb2).
+2025-10-06 08:30:29.910 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+2025-10-06 08:30:29.914 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BaithuchanhWeb2.Models.Image, BaithuchanhWeb2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-06 08:30:29.916 +07:00 [INF] Executed action BaithuchanhWeb2.Controllers.ImagesController.GetAllInfoImages (BaithuchanhWeb2) in 165.3547ms
+2025-10-06 08:30:29.916 +07:00 [INF] Executed endpoint 'BaithuchanhWeb2.Controllers.ImagesController.GetAllInfoImages (BaithuchanhWeb2)'
+2025-10-06 08:30:29.917 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/api/Images - 200 null application/json; charset=utf-8 178.176ms
+2025-10-06 08:30:38.062 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/api/Images/Download?Id=1 - null null
+2025-10-06 08:30:38.066 +07:00 [INF] Executing endpoint 'BaithuchanhWeb2.Controllers.ImagesController.DownloadFile (BaithuchanhWeb2)'
+2025-10-06 08:30:38.069 +07:00 [INF] Route matched with {action = "DownloadFile", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DownloadFile(Int32) on controller BaithuchanhWeb2.Controllers.ImagesController (BaithuchanhWeb2).
+2025-10-06 08:30:38.124 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+WHERE [i].[Id] = @__Id_0
+2025-10-06 08:30:38.128 +07:00 [INF] Executing FileContentResult, sending file with download name 'Back.jpg' ...
+2025-10-06 08:30:38.137 +07:00 [INF] Executed action BaithuchanhWeb2.Controllers.ImagesController.DownloadFile (BaithuchanhWeb2) in 67.2945ms
+2025-10-06 08:30:38.138 +07:00 [INF] Executed endpoint 'BaithuchanhWeb2.Controllers.ImagesController.DownloadFile (BaithuchanhWeb2)'
+2025-10-06 08:30:38.138 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/api/Images/Download?Id=1 - 200 37250 application/octet-stream 76.5826ms

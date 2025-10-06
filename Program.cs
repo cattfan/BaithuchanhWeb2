@@ -31,6 +31,7 @@ builder.Services.AddScoped<IBookRepository, SQLBookRepository>();
 builder.Services.AddScoped<IAuthorRepository, SQLAuthorRepository>();
 builder.Services.AddScoped<IPublisherRepository, SQLPublisherRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+builder.Services.AddScoped<IImageRepository, LocalImageRepository>();
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
@@ -97,7 +98,7 @@ Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
 
 builder.Services.AddDbContext<BookAuthDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("BookAuthConnection")));
-
+builder.Services.AddHttpContextAccessor();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

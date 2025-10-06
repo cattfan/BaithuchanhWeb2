@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Migrations\\20251006012808_Addimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251006012808_Addimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|c:\\users\\cattfan\\desktop\\baithuchanhweb2\\models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D620B16-9628-41B7-8350-ECDA45BAFD40}|BaithuchanhWeb2.csproj|solutionrelative:models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABVAAAAAAAAAA==",
+              "Title": "20251006012808_Addimage.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Migrations\\20251006012808_Addimage.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251006012808_Addimage.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Migrations\\20251006012808_Addimage.cs",
+              "RelativeToolTip": "Migrations\\20251006012808_Addimage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T02:58:08.264Z",
+              "WhenOpened": "2025-10-06T01:28:08.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageUploadRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\ImageUploadRequestDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ImageUploadRequestDTO.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Models\\DTO\\ImageUploadRequestDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\ImageUploadRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T01:13:18.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "Controllers\\ImagesController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T01:10:52.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAKIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T01:06:37.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAnwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T02:54:21.06Z",
+              "WhenOpened": "2025-10-06T01:02:20.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\LocalImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LocalImageRepository.cs",
+              "ToolTip": "C:\\Users\\CATTFAN\\Desktop\\BaithuchanhWeb2\\Repositories\\LocalImageRepository.cs",
+              "RelativeToolTip": "Repositories\\LocalImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T00:52:23.27Z",
               "EditorCaption": ""
             }
           ]
