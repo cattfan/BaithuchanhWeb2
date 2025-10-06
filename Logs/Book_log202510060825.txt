@@ -1,0 +1,30 @@
+2025-10-06 08:25:14.986 +07:00 [INF] User profile is available. Using 'C:\Users\CATTFAN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-06 08:25:15.146 +07:00 [INF] Now listening on: https://localhost:7249
+2025-10-06 08:25:15.147 +07:00 [INF] Now listening on: http://localhost:5263
+2025-10-06 08:25:15.175 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 08:25:15.177 +07:00 [INF] Hosting environment: Development
+2025-10-06 08:25:15.177 +07:00 [INF] Content root path: C:\Users\CATTFAN\Desktop\BaithuchanhWeb2
+2025-10-06 08:25:16.251 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/index.html - null null
+2025-10-06 08:25:16.455 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/index.html - 200 null text/html;charset=utf-8 208.9635ms
+2025-10-06 08:25:16.475 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 08:25:16.484 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 9.094ms
+2025-10-06 08:25:17.390 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/_vs/browserLink - null null
+2025-10-06 08:25:17.426 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.8803ms
+2025-10-06 08:25:17.481 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - null null
+2025-10-06 08:25:17.495 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.5845ms
+2025-10-06 08:25:26.049 +07:00 [INF] User profile is available. Using 'C:\Users\CATTFAN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-06 08:25:26.209 +07:00 [INF] Now listening on: https://localhost:7249
+2025-10-06 08:25:26.210 +07:00 [INF] Now listening on: http://localhost:5263
+2025-10-06 08:25:26.240 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 08:25:26.241 +07:00 [INF] Hosting environment: Development
+2025-10-06 08:25:26.242 +07:00 [INF] Content root path: C:\Users\CATTFAN\Desktop\BaithuchanhWeb2
+2025-10-06 08:25:26.811 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger - null null
+2025-10-06 08:25:26.898 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger - 301 0 null 91.6697ms
+2025-10-06 08:25:26.906 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/index.html - null null
+2025-10-06 08:25:26.952 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/index.html - 200 null text/html;charset=utf-8 46.5848ms
+2025-10-06 08:25:26.965 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 08:25:26.974 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 9.2986ms
+2025-10-06 08:25:27.545 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/_vs/browserLink - null null
+2025-10-06 08:25:27.576 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.7287ms
+2025-10-06 08:25:27.721 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - null null
+2025-10-06 08:25:27.732 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6431ms

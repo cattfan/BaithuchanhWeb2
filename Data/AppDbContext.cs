@@ -1,4 +1,5 @@
 ﻿using BaithuchanhWeb2.Models.Domain;
+using BaithuchanhWeb2.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BaithuchanhWeb2.Data
@@ -159,5 +160,6 @@ namespace BaithuchanhWeb2.Data
         public DbSet<Authors> Authors { get; set; }
         public DbSet<Book_Author> Books_Authors { get; set; }
         public DbSet<Publishers> Publishers { get; set; }
+        public DbSet<Image> Images { get; set; }
     }
 }
